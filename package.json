@@ -1,0 +1,28 @@
+{
+  "name": "toggltempo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore creds.json --ignore entries.json src/index.js"
+  },
+  "author": "Steven Chester",
+  "license": "ISC",
+  "bin": {
+    "toggl": "src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "chrono-node": "^1.4.6",
+    "commander": "^5.0.0",
+    "date-fns": "^2.11.0",
+    "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "prompt": "^1.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
