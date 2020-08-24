@@ -3,15 +3,11 @@
 A small tool for ingesting daily worklogs from toggl to tempo
 
 ## Getting Started
-
 - run `yarn` (or `npm i`)
-
-- Create a .env file in the root directory and copy the contents of .env.example
-- Add your tempo API key (obtainable from https://YOURURL.atlassian.net/plugins/servlet/ac/io.tempo.jira/tempo-configuration#!/)
 
 ## Usage
 
-- to use this, you need to run `node src/index.js`.
+- run `node src/index.js`.
 - It will ask for your toggl email and password
 - It will also ask for your tempo workerID.
 - To obtain your JIRA Worker ID, visit Atlassian, click your avatar, then click 'Profile'. The workerID is the last part of the URL.
